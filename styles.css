@@ -549,6 +549,10 @@ section {
     transition: width 1s ease-out;
 }
 
+.skill-progress.advanced {
+    width: 75% !important;
+}
+
 .skill-blue .skill-progress {
     background: #1e40af;
 }

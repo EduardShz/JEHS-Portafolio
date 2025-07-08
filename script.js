@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 bar.style.width = '0%';
                 setTimeout(() => {
                     bar.style.width = width;
-                }, 100);
+                }, 105);
             }
         });
     }
