@@ -797,13 +797,13 @@ section {
 
 .award-body a {
     color: #f19124;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.3s ease;
 }
 
 .award-body a:hover {
     color: #d58121;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.3s ease;
 }
 
@@ -1142,6 +1142,109 @@ section {
     transform: translateY(-2px);
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  margin-top: 35px;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.322);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 1rem;
+  position: relative;
+  max-width: 90%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.slider img {
+  margin-top: 25px;
+  max-width: 1000px;
+  max-height: 700px;
+  border-radius: 8px;
+}
+
+.prev, .next {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #1e40af;
+  cursor: pointer;
+}
+
+.prev:hover, .next:hover {
+  color: #374151;
+}
+
+.button {
+    margin: 25px 0 0 0;
+    padding: 8px 15px;
+    background-color: #f3e8ff;
+    border-radius: 5px;
+    border-color: transparent;
+    transition: .15s ease-in;
+    cursor: pointer;
+    color: #7c3aed;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a.button {
+    padding: 9px 15px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #e9d5ff;
+    transition: .15s ease-in;
+}
+
+.button:active {
+    background-color: #d0a4ff;
+    transition: .13s ease-in;
+}
+
+.golden {
+    color: #d4840c;
+    background-color: #ffe9c9;
+}
+
+.golden:hover {
+    background-color: #fcd79f;
+}
+
+.golden:active {
+    background-color: #fcc470;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {

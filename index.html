@@ -20,7 +20,7 @@
       <div class="nav-container">
         <div class="nav-brand">
           <i class="fas fa-code"></i>
-          <span>Backend Dev</span>
+          <span>Eduardo Sánchez</span>
         </div>
         <div class="nav-menu" id="nav-menu">
           <a href="#inicio" class="nav-link active">Inicio</a>
@@ -44,12 +44,12 @@
         <div class="hero-content">
           <div class="hero-text">
             <h1>
-              Desarrollador
-              <span class="highlight">Backend</span>
+              José Eduardo
+              <span class="highlight">Hernández Sánchez</span>
             </h1>
             <p class="hero-description">
-              Especializado en la construcción de sistemas escalables y
-              eficientes con dominio de frameworks modernos como
+              Programador backend especializado en la construcción de sistemas
+              escalables y eficientes con dominio de frameworks modernos como
               <span class="tech-highlight">Laravel</span> y
               <span class="tech-highlight">Spring</span>.
             </p>
@@ -95,7 +95,7 @@
             <div class="image-placeholder">
               <div class="placeholder-content">
                 <img
-                  src="img/githubpic.jpg"
+                  src="img/jehs.jpg"
                   alt="José Eduardo Hernández Sánchez"
                   class="placeholder-avatar"
                 />
@@ -154,6 +154,27 @@
                 <span class="tech-tag">RESTful APIs</span>
               </div>
             </div>
+            <button class="button card-below" onclick="openOrdenamientoModal()">
+              Imágenes
+            </button>
+          </div>
+
+          <div id="ordenamientoModal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeOrdenamientoModal()"
+                >&times;</span
+              >
+              <h2>Ordenamiento Ecológico del Centro</h2>
+              <div class="slider">
+                <button class="prev" onclick="changeOrdenamientoSlide(-1)">
+                  &#10094;
+                </button>
+                <img id="ordenamientoSlider" src="" alt="Imagen actual" />
+                <button class="next" onclick="changeOrdenamientoSlide(1)">
+                  &#10095;
+                </button>
+              </div>
+            </div>
           </div>
 
           <div class="project-card">
@@ -187,6 +208,25 @@
                 <span class="tech-tag">Vue.js</span>
                 <span class="tech-tag">MySQL</span>
                 <span class="tech-tag">PHP</span>
+              </div>
+            </div>
+            <button class="button card-below" onclick="openMitsModal()">
+              Imágenes
+            </button>
+          </div>
+
+          <div id="mitsModal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeMitsModal()">&times;</span>
+              <h2>Mayo Informática Technical Suite</h2>
+              <div class="slider">
+                <button class="prev" onclick="changeMitsSlide(-1)">
+                  &#10094;
+                </button>
+                <img id="mitsSlider" src="" alt="Imagen actual" />
+                <button class="next" onclick="changeMitsSlide(1)">
+                  &#10095;
+                </button>
               </div>
             </div>
           </div>
@@ -223,6 +263,32 @@
                 <span class="tech-tag">Vue.js</span>
                 <span class="tech-tag">JavaScript</span>
                 <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">RESTful APIs</span>
+              </div>
+            </div>
+            <button class="button card-below" onclick="openJuegosModal()">
+              Imágenes
+            </button>
+            <a
+              href="https://github.com/EduardShz/CatalogoJuegos"
+              target="_blank"
+              class="button golden"
+              >Repositorio <i class="fab fa-github"></i
+            ></a>
+          </div>
+
+          <div id="juegosModal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeJuegosModal()">&times;</span>
+              <h2>Catálogo de Videojuegos</h2>
+              <div class="slider">
+                <button class="prev" onclick="changeJuegosSlide(-1)">
+                  &#10094;
+                </button>
+                <img id="juegosSlider" src="" alt="Imagen actual" />
+                <button class="next" onclick="changeJuegosSlide(1)">
+                  &#10095;
+                </button>
               </div>
             </div>
           </div>
@@ -541,8 +607,8 @@
               <i class="fas fa-trophy"></i>
             </div>
             <div class="award-title">
-              <h3>1er Lugar – Hackathon Tabasco 2024</h3>
-              <p>Competencia de desarrollo e innovación</p>
+              <h3>1er Lugar JED Petrodocs – Hackathon Tabasco 2024</h3>
+              <p>Competencia de desarrollo e innovación - Contenido Nacional</p>
             </div>
           </div>
 
