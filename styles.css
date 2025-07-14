@@ -1188,8 +1188,8 @@ section {
 
 .slider img {
   margin-top: 25px;
-  max-width: 1000px;
-  max-height: 700px;
+  max-width: 85%;
+  max-height: 65%;
   border-radius: 8px;
 }
 
@@ -1375,6 +1375,27 @@ a.button {
         flex-direction: column;
         text-align: center;
     }
+
+    .close {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        color: #aaa;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .modal-content h2{
+        margin-top: 10px;
+    }
+    
+    /* .slider img {
+    margin-top: 25px;
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 8px;
+    } */
 }
 
 /* Animations */
